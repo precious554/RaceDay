@@ -70,12 +70,13 @@ RaceDay is a web-based event management system designed for the South African ro
 ## User Roles
 
 ### Organiser
-
 Organisers can create, edit and delete events, manage event categories, capture participant results and view event enrolments.
 
 ### Participant
-
 Participants can create an account, browse upcoming events, enter events by selecting a category, view their enrolments and track their personal results.
-## Database Design
 
+## Database Design
 The RaceDay database is designed using six main entities: User, Event, Category, Enrolment, Result and Route. Primary keys uniquely identify records, while foreign keys are used to connect related entities. The database design supports event management, participant enrolments and the recording of race results.
+
+## API
+The RaceDay API is planned to support authentication, user profiles, events, categories, event enrolments and participant results. The API uses RESTful endpoints with appropriate HTTP methods such as GET, POST, PUT and DELETE. Access to protected functionality is controlled according to the Organiser and Participant roles.
