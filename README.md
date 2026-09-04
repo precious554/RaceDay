@@ -54,3 +54,8 @@ RaceDay/
 │
 └── .github/
     └── workflows/
+## GitHub Actions Validation
+
+The RaceDay repository uses GitHub Actions to validate the required repository structure and planning documents.
+
+![GitHub Actions Green Build](docs/github-actions-green-build.png)
