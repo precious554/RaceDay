@@ -7,6 +7,7 @@ RaceDay is a web-based event management system designed for South African road r
 ## System Roles
 
 ### Organiser
+
 Organisers can:
 - Create, edit and delete events
 - Manage event categories
@@ -16,6 +17,7 @@ Organisers can:
 - View event results
 
 ### Participant
+
 Participants can:
 - Create an account
 - Browse available events
@@ -31,6 +33,7 @@ The `docs` folder contains the planning and database documentation for the RaceD
 - **ERD** – Entity Relationship Diagram showing the database entities, attributes, keys and relationships.
 - **API Endpoint Plan** – Planned REST API endpoints for authentication, users, events, categories, enrolments, results and routes.
 - **SQL Database Script** – SQL Server script containing the RaceDay database structure, constraints and sample data.
+- **GitHub Actions Evidence** – Screenshot showing successful repository validation.
 
 ## Technologies
 
@@ -47,15 +50,12 @@ The `docs` folder contains the planning and database documentation for the RaceD
 RaceDay/
 ├── docs/
 │   ├── RaceDay-ERD.png
-│   ├── RaceDay-API-Endpoints.docx
-│   └── RaceDay-Database.sql
+│   ├── RaceDay_API Endpoint Plan.pdf
+│   ├── RaceDay-Database.sql
+│   └── Screenshot 2026-09-04 135832.png
 │
 ├── README.md
 │
 └── .github/
     └── workflows/
-## GitHub Actions Validation
-
-The RaceDay repository uses GitHub Actions to validate the required repository structure and planning documents.
-
-![GitHub Actions Green Build](docs/github-actions-green-build.png)
+        └── validate.yml
