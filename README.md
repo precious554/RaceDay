@@ -83,3 +83,11 @@ The RaceDay API is planned to support authentication, user profiles, events, cat
 ## Part 1 Requirements
 
 Part 1 of the RaceDay project focuses on system planning and database development. The deliverables include an Entity Relationship Diagram (ERD), a complete API endpoint plan and a SQL database script. The planning documents are stored in the docs folder of the repository.
+
+## Documentation
+
+The docs folder contains the main planning and database deliverables for RaceDay:
+
+- RaceDay ERD
+- RaceDay API Endpoint Plan
+- RaceDay SQL Database Script
