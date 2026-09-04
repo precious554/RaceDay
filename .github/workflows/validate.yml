@@ -12,13 +12,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Validate required files
+      - name: Validate required repository structure
         run: |
           test -f README.md
           test -d docs
-          test -n "$(find docs -type f | head -n 1)"
+
+          test -f "docs/RaceDay-ERD.png"
+          test -f "docs/RaceDay-Database.sql"
+          test -f "docs/RaceDay_API Endpoint Plan.pdf"
+          test -f "docs/Screenshot 2026-09-04 135832.png"
 
           echo "RaceDay repository structure is valid."
           echo "README.md found."
           echo "docs folder found."
-          echo "Planning documents found."
+          echo "ERD found."
+          echo "SQL database script found."
+          echo "API endpoint plan found."
+          echo "Green build screenshot found."
