@@ -1,0 +1,24 @@
+name: RaceDay Repository Validation
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate required files
+        run: |
+          test -f README.md
+          test -d docs
+          test -n "$(find docs -type f | head -n 1)"
+
+          echo "RaceDay repository structure is valid."
+          echo "README.md found."
+          echo "docs folder found."
+          echo "Planning documents found."
