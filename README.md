@@ -76,3 +76,6 @@ Organisers can create, edit and delete events, manage event categories, capture 
 ### Participant
 
 Participants can create an account, browse upcoming events, enter events by selecting a category, view their enrolments and track their personal results.
+## Database Design
+
+The RaceDay database is designed using six main entities: User, Event, Category, Enrolment, Result and Route. Primary keys uniquely identify records, while foreign keys are used to connect related entities. The database design supports event management, participant enrolments and the recording of race results.
