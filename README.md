@@ -59,3 +59,20 @@ RaceDay/
 └── .github/
     └── workflows/
         └── validate.yml
+# RaceDay
+
+[Your existing README content stays here]
+
+## RaceDay System
+
+RaceDay is a web-based event management system designed for the South African road running, walking and cycling community. The system allows organisers to create and manage events, categories, participant enrolments and race results, while participants can browse events, enter events and track their personal performance history.
+
+## User Roles
+
+### Organiser
+
+Organisers can create, edit and delete events, manage event categories, capture participant results and view event enrolments.
+
+### Participant
+
+Participants can create an account, browse upcoming events, enter events by selecting a category, view their enrolments and track their personal results.
